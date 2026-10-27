@@ -1,5 +1,9 @@
 import numpy as np
 
+"""
+I use numpy here because the x received by these functions it will always be a vector and the library already supports it.
+"""
+
 def sigmoid(x):
     """
     Takes every real number and turns it into a value between 0 and 1.
